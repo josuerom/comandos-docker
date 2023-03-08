@@ -37,8 +37,23 @@ Para encender el contenedor
 docker start <id-del-contenedor>
 ```
 Devuelve una tabla la cual contiene varios datos interesantes sobre todas la imágenes, como lo son el id, imagen, comando, fecha de creación, estado, puerto y el nombre.
+
+Crear contenedor con parámetros de ajuste
 ```bash
-docker ps
+docker run -dit --name Josue -p 9090:80 ubuntu /bin/bash
+```
+Para habilitar el contenedor, mientras este apagado
+```bash
+docker start <name-container>
+```
+
+Para entrar a un contenedor
+```bash
+docker exec -it <name-container> /bin/bash
+```
+
+```bash
+docker 
 ```
 
 ```bash
