@@ -67,7 +67,9 @@ docker network connect <id-container> <name-container>
 ```bash
 docker network inspect <name-container> 
 ```
+
+Para enviar un archivo desde el SO local a una maquina virtual, desde Windows
 ```bash
-docker  
+scp <ruta-del-archivo-local> <nombre-servidor>@<ip-del-servidor>:/home/minutero
 ```
 Aún esta incompleta, ver vídeo [Aprende Docker ahora!](https://youtu.be/4Dko5W96WHg?t=1915)
