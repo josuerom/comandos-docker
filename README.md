@@ -51,13 +51,23 @@ Para entrar a un contenedor
 ```bash
 docker exec -it <name-container> /bin/bash
 ```
-
+Para salir del contenedor
 ```bash
-docker 
+exit
 ```
 
 ```bash
 docker 
 ```
 
+```bash
+docker network connect <id-container> <name-container> 
+```
+
+```bash
+docker network inspect <name-container> 
+```
+```bash
+docker  
+```
 Aún esta incompleta, ver vídeo [Aprende Docker ahora!](https://youtu.be/4Dko5W96WHg?t=1915)
